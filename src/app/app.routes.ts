@@ -4,6 +4,7 @@ import { ElseIFExample } from './else-ifexample/else-ifexample'
 import { Todolist } from './todolist/todolist'
 import { Header } from './header/header'
 import { Login } from './login/login'
+import { Pagenotfound } from './pagenotfound/pagenotfound'
 
 export const routes: Routes = [
  
@@ -22,5 +23,9 @@ export const routes: Routes = [
     {
     path: '',
     component: Login
+  },
+  {
+    path: '**',
+    component: Pagenotfound
   }
 ]
