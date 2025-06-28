@@ -1,0 +1,48 @@
+nav {
+  background-color: #fce4ec; /* light pink */
+  padding: 1rem 2rem;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #880e4f; /* deep pink text */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6a1b9a; /* soft purple for elegance */
+  font-size: 1.05rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #f8bbd0;
+  color: #4a148c;
+}
+
+.active {
+  background-color: #f06292; /* brighter pink */
+  color: white;
+}
