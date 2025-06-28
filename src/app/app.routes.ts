@@ -5,6 +5,7 @@ import { Todolist } from './todolist/todolist'
 import { Header } from './header/header'
 import { Login } from './login/login'
 import { Pagenotfound } from './pagenotfound/pagenotfound'
+import { Home } from './home/home'
 
 export const routes: Routes = [
  
@@ -22,10 +23,15 @@ export const routes: Routes = [
   },
     {
     path: '',
+    component: Home
+  },
+  {
+    path: 'login',
     component: Login
   },
   {
     path: '**',
     component: Pagenotfound
   }
+   
 ]
