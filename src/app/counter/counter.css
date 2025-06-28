@@ -1,0 +1,31 @@
+.counterdiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.inc{
+        padding: 20px 50px;
+    border-radius: 12px;
+    margin: 10px;
+    background: lightgreen;
+
+}
+
+
+.dec{
+        padding: 20px 50px;
+    border-radius: 12px;
+    margin: 10px;
+    background: lightcoral;
+
+}
+
+.reset{
+    padding: 20px 50px;
+    border-radius: 12px;
+    margin: 10px;
+    background: rgb(210, 227, 149);
+}
