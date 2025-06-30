@@ -6,6 +6,7 @@ import { Header } from './header/header'
 import { Login } from './login/login'
 import { Pagenotfound } from './pagenotfound/pagenotfound'
 import { Home } from './home/home'
+import { Twowaydatabinding } from './twowaydatabinding/twowaydatabinding'
 
 export const routes: Routes = [
  
@@ -28,6 +29,10 @@ export const routes: Routes = [
   {
     path: 'login',
     component: Login
+  },
+  {
+    path: 'twb',
+    component: Twowaydatabinding
   },
   {
     path: '**',
