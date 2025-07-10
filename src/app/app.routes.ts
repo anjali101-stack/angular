@@ -8,6 +8,7 @@ import { Pagenotfound } from './pagenotfound/pagenotfound'
 import { Home } from './home/home'
 import { Twowaydatabinding } from './twowaydatabinding/twowaydatabinding'
 import { Props } from './props/props'
+import { Parent } from './parent/parent'
 
 export const routes: Routes = [
  
@@ -34,6 +35,10 @@ export const routes: Routes = [
   {
     path: 'twb',
     component: Twowaydatabinding
+  },
+   {
+    path: 'parent',
+    component: Parent
   },
   {
     path : "props",
