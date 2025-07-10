@@ -1,5 +1,18 @@
-<p>home works!</p>
-<a [routerLink] = '["login", {name:"anjali giri", age:"25"}]'>Login page</a>
-<br/>
-<hr/>
-<a routerLink= 'twb'>Two way data binding  page</a>
+<app-props [user]="selectedUser.value"></app-props>
+
+<select #selectedUser (change)="onUserchange(selectedUser.value)" >
+    <option value="bipin">bipin</option>
+    <option value="anjali giri">Anjali giri</option>
+    <option value="Raja">Raja</option>
+    <option value="prity">prity</option>
+    <option value="sumit"> sumit</option>
+</select>
+<br />
+<br />
+<a [routerLink]='["login", {name:"anjali giri", age:"25"}]'>Login page</a>
+<br />
+<hr />
+<a routerLink='twb'>Two way data binding page</a>
+<br />
+<hr />
+<a routerLink= 'props'>Props</a>

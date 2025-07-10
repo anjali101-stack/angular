@@ -7,6 +7,7 @@ import { Login } from './login/login'
 import { Pagenotfound } from './pagenotfound/pagenotfound'
 import { Home } from './home/home'
 import { Twowaydatabinding } from './twowaydatabinding/twowaydatabinding'
+import { Props } from './props/props'
 
 export const routes: Routes = [
  
@@ -33,6 +34,10 @@ export const routes: Routes = [
   {
     path: 'twb',
     component: Twowaydatabinding
+  },
+  {
+    path : "props",
+    component: Props
   },
   {
     path: '**',
