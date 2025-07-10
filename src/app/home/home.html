@@ -1,6 +1,14 @@
-<app-props [user]="selectedUser.value"></app-props>
+<app-user (getUsers)="handleUsers($event)"></app-user>
 
-<select #selectedUser (change)="onUserchange(selectedUser.value)" >
+@for(user of users; track user){
+<h1>
+    {{user}}
+</h1>
+}
+<!-- <app-props [user]="selectedUser.value"></app-props> -->
+
+
+<select #selectedUser (change)="onUserchange(selectedUser.value)">
     <option value="bipin">bipin</option>
     <option value="anjali giri">Anjali giri</option>
     <option value="Raja">Raja</option>
@@ -15,4 +23,4 @@
 <a routerLink='twb'>Two way data binding page</a>
 <br />
 <hr />
-<a routerLink= 'props'>Props</a>
+<a routerLink='props'>Props</a>
