@@ -6,10 +6,11 @@ import { EventExamples } from './event-examples/event-examples';
 import { ElseIFExample } from './else-ifexample/else-ifexample';
 import { Todolist } from './todolist/todolist';
 import { Header } from './header/header';
+import { Lifecyclemethode } from './lifecyclemethode/lifecyclemethode';
 
 @Component({
   selector: 'app-root',
-  imports: [Header, RouterOutlet],
+  imports: [Header, RouterOutlet, Lifecyclemethode],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
