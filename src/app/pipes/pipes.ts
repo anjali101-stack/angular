@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { CurrencyPipePipe } from '../pipe/currency-pipe-pipe';
 
 @Component({
   selector: 'app-pipes',
-  imports: [CommonModule],
+  imports: [CommonModule, CurrencyPipePipe],
   templateUrl: './pipes.html',
   styleUrl: './pipes.css'
 })

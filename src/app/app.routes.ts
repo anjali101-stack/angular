@@ -9,7 +9,6 @@ import { Home } from './home/home'
 import { Twowaydatabinding } from './twowaydatabinding/twowaydatabinding'
 import { Props } from './props/props'
 import { Parent } from './parent/parent'
-import { Pipe } from '@angular/core'
 import { Pipes } from './pipes/pipes'
 
 export const routes: Routes = [
