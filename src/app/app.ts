@@ -7,10 +7,11 @@ import { ElseIFExample } from './else-ifexample/else-ifexample';
 import { Todolist } from './todolist/todolist';
 import { Header } from './header/header';
 import { Lifecyclemethode } from './lifecyclemethode/lifecyclemethode';
+import { Ecom } from './ecom/ecom';
 
 @Component({
   selector: 'app-root',
-  imports: [Header, RouterOutlet, Lifecyclemethode],
+  imports: [Ecom, Header, RouterOutlet, Lifecyclemethode],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

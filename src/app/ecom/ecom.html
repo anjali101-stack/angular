@@ -1,0 +1,25 @@
+<h1>Ecommerce website in angular</h1>
+
+@for(item of productList;track item.id){
+<ul>
+    <li>
+        {{item.title}}
+    </li>
+    <li>
+         <b> Price </b> : 
+        {{item.price}}
+    </li>
+      <li>
+         <b> Rating</b> : 
+        {{item.rating}}
+    </li>
+      <li>
+        <b> Brand</b> : 
+        {{item.brand}}
+    </li>
+      <li>
+      <b> Category</b> : {{item.category}}
+    </li>
+   <img src={{item.images}} style="width: 100px;"/>
+</ul>
+}
